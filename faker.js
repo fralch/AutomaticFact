@@ -9,7 +9,8 @@ for (let i = 0; i < numero ; i++) {
 			// console.log(rutaLaravel);
 			axios.get(rutaLaravel)
 			.then((res) => {
-				console.log('faker');
+				// console.log('faker');
+				console.log(res.data);
 			})
 			.catch((err) => {
 				console.log(err);
